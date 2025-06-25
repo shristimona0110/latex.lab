@@ -1,0 +1,44 @@
+\documentclass{article}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{caption}
+
+\begin{document}
+
+\begin{table}[h!]
+\centering
+\caption{Student Marks Table-1}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+\textbf{S.No} & \textbf{USN} & \textbf{Student Name} & \multicolumn{4}{c|}{\textbf{Marks}} \\
+\cline{4-7}
+ & & & \textbf{Subject1} & \textbf{Subject2} & \textbf{Subject3} & \textbf{Subject4} \\
+\hline
+1 & 4XX22XX001 & Name1 & 89 & 60 & 90 & 90 \\
+\hline
+2 & 4XX22XX002 & Name2 & 78 & 45 & 98 & 89 \\
+\hline
+3 & 4XX22XX003 & Name3 & 67 & 55 & 59 & 88 \\
+\hline
+\end{tabular}
+\end{table}
+\begin{table}[h!]
+\centering
+\caption{Student Marks Table-2}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+\textbf{S.No} & \textbf{USN} & \textbf{Student Name} & \multicolumn{4}{c|}{\textbf{Marks}} \\
+\cline{4-7}
+ & & & \textbf{Subject1} & \textbf{Subject2} & \textbf{Subject3} & \textbf{Subject4} \\
+\hline
+1 & 4XX22XX001 & Name1 & 89 & 60 & 90 & 90 \\
+\hline
+2 & 4XX22XX002 & Name2 & 78 & 45 & 98 & 89 \\
+\hline
+3 & 4XX22XX003 & Name3 & 67 & 55 & 59 & 88 \\
+\hline
+\end{tabular}
+\label{tab:student_marks}
+\end{table}
+
+\end{document}
